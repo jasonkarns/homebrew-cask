@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Rebase Pull Request
-        uses: peter-evans/rebase@77cd9d5cb5977699b92ef162551d0867ef7735d8
+        uses: peter-evans/rebase@e4945786f7ca41fe6e101cead4395f5489593943
         id: rebase
         with:
           token: ${{ secrets.HOMEBREW_CASK_REBASE_TOKEN }}
